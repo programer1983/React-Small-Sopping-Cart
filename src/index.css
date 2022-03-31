@@ -112,6 +112,8 @@ p {
 nav {
   background: var(--clr-primary);
   padding: 1.25rem 2rem;
+  position: sticky;
+  top: 0;
 }
 
 .nav-center {
@@ -277,6 +279,15 @@ hr {
   border-color: transparent;
   border-width: 0.25px;
 }
+
+/* loading */
+
+.loading {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+
 
 
 
